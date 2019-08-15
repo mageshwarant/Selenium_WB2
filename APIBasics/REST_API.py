@@ -3,10 +3,10 @@ import json
 
 BASE_URL ="https://reqres.in"
 data ={
-    "email": "eve.holt@reqres.in",
-    "password": "pistol"
+    "name": "morpheus",
+    "job": "leader"
 }
-response =requests.post(BASE_URL+"/api/register",data=data)
+response =requests.post(BASE_URL+"/api/user",data=data)
 
 print(response.status_code)
 print(response.text)
