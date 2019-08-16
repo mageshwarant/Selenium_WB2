@@ -1,4 +1,4 @@
-form Behave import given, when, then
+from behave import given, when, then
 
 @given("I am in a directory")
 def in_main_dir(context):

@@ -11,6 +11,7 @@ class RunFFTest():
 
 
         driver.get("http://www.google.com")
+        print('opened Brower')
 
 
 ff = RunFFTest()
